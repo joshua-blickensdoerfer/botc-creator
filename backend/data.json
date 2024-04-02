@@ -1,0 +1,1403 @@
+{
+    "factions": [
+      {
+        "name": "Dorbewohner*innen / Townsfolk",
+        "characters": [
+          {
+            "name": {
+              "eng": "Steward",
+              "ger": "Statthalter"
+            },
+            "gender": "m",
+            "ability": "Erste Nacht: Du erfährst eine gute Person.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Grandmother",
+              "ger": "Großmutter"
+            },
+            "gender": "w",
+            "ability": "Erste Nacht: Du erfährst die Rolle einer guten Person (Enkel*in). Falls der Dämon diese tötet, stirbst du auch.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Washerwoman",
+              "ger": "Waschfrau"
+            },
+            "gender": "w",
+            "ability": "Erste Nacht: Du erfährst, dass 1 von 2 Personen eine bestimmte Dorfbewohner*in ist.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Pixie",
+              "ger": "Wichtel"
+            },
+            "gender": "d",
+            "ability": "Erste Nacht: Du erfährst von einer Dofbewohner*in im Spiel. Falls du \"besessen\" warst, diese Rolle zu sein, erhältst du ihre Fähigkeit, wenn diese Person stirbt.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Librarian",
+              "ger": "Bibliothekarin"
+            },
+            "gender": "w",
+            "ability": "Erste Nacht: Du erfährst, dass 1 von 2 Personen eine bestimmte Außenseiter*in ist. (Oder das keine im Spiel sind.)",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Chef",
+              "ger": "Koch"
+            },
+            "gender": "m",
+            "ability": "Erste Nacht: Du erfährst wie viele böse Pärchen es gibt.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Noble",
+              "ger": "Adlige"
+            },
+            "gender": "w",
+            "ability": "Erste Nacht: Du erfährst, dass genau 1 von 3 Personen böse sind.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Alchemist",
+              "ger": "Alchemistin"
+            },
+            "gender": "w",
+            "ability": "Erste Nacht: Du erhältst die Fähigkeit einer Handlanger*in, die nicht im Spiel ist.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Investigator",
+              "ger": "Detektiv"
+            },
+            "gender": "m",
+            "ability": "Erste Nacht: Du erfährst, dass 1 von 2 Personen eine bestimmte Handlanger*in ist.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Clockmaker",
+              "ger": "Uhrmacher"
+            },
+            "gender": "m",
+            "ability": "Erste Nacht: Du erfährst wie weit der Dämon von seiner nächsten Handlanger*in entfernt ist.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Magician",
+              "ger": "Magierin"
+            },
+            "gender": "w",
+            "ability": "Erste Nacht: Der Dämon denkt du wärst eine Handlanger*in. Die Handlanger*innen denken du wärst der Dämon.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Knight",
+              "ger": "Ritter"
+            },
+            "gender": "m",
+            "ability": "Erste Nacht: Du erfährst von 2 Personen, dass sie nicht der Dämon sind.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Chambermaid",
+              "ger": "Zimmermädchen"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Wähle 2 lebende Personen (nicht dich) und erfahre wie viele diese Nacht aufgrund ihrer Fähigkeit aufgewacht sind.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "High Priestess",
+              "ger": "Hohe Priesterin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Erfahre mit welcher Person du, laut Erzähler*in, am ehesten reden solltest.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Empath",
+              "ger": "Empath"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht: Du erfährst wie viele deiner 2 lebenden Nachbar*innen böse sind.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Preacher",
+              "ger": "Priester"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht: Wähle eine Person. Ist diese eine Handlanger*in, erfährt sie, dass sie gewählt wurde und verliert ihre Fähigkeiten.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Snake Charmer",
+              "ger": "Schlangenbeschwörer"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht: Wähle eine lebende Person. Falls du den Dämon wählst, tauscht ihr Rollen und Teams. Der ehemalige Dämon ist vergiftet.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Fortune Teller",
+              "ger": "Wahrsagerin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Wähle 2 Personen und erfahre ob eine ein Dämon ist. Es gibt eine gute Person, die wie ein Dämon auf dich wirkt. (Falsche Fährte)",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "General",
+              "ger": "General"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht: Du erfährst welches Team, laut Erzähler*in, am gewinnen ist. Gut, böse oder niemand.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Dreamer",
+              "ger": "Träumerin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Wähle eine Person (nicht dich, nicht Reisende): Du erfährst 1 gute und 1 böse Rolle. Eine davon ist korrekt.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Cult Leader",
+              "ger": "Sektenführerin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Du bist im Team einer deiner lebenden Nachbar*innen. Falls alle guten Personen sich entscheiden deiner Sekte zu folgen, gewinnt dein Team.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Balloonist",
+              "ger": "Ballonfahrer"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht: Du erfährst eine Person pro Rollenart, solange bis es keine neue Art zu erfahren gibt. [+1 Außenseiter*in]",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "King",
+              "ger": "König"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht: Falls es mehr Tote als Lebende gibt, erfährst du eine Rolle einer noch lebenden Person.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Mathematician",
+              "ger": "Mathematikerin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Erfahre wie viele Fähigkeiten (seit Tagesanbruch) inkorrekt funktionierten. Aufgrund der Fähigkeit anderer Rollen.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Sailor",
+              "ger": "Seefahrerin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Wähle eine lebende Person. Diese Person oder du sind bis zum Ende des Tages betrunken. Du kannst nicht sterben.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Undertaker",
+              "ger": "Bestatter"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht*: Du erfährst die Rolle der am Tag exekutierten Person.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Lycanthrope",
+              "ger": "Lykanthropin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht*: Wähle eine lebende Person. Ist diese gut, stirbt sie. Diese Person ist die Einzige, die diese Nacht sterben kann.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Oracle",
+              "ger": "Orakel"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Du erfährst wie viele der Toten böse sind.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Town Crier",
+              "ger": "Stadtschreierin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht*: Du erfährst, ob eine Handlanger*in am Tag angeklagt hat.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Flowergirl",
+              "ger": "Blumenmädchen"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht*: Du erfährst, ob der Dämon am Tag für eine Exekution abgestimmt hat.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Monk",
+              "ger": "Mönch"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht*: Wähle eine Person (nicht dich): Diese ist diese Nacht vor dem Dämon geschützt.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Exorcist",
+              "ger": "Exorzistin"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht*: Wähle eine Person (nicht 2x dieselbe in Folge): Falls der Dämon gewählt wird, erfährt er deine Person und Rolle und wacht den Rest der Nacht nicht mehr auf.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Gambler",
+              "ger": "Glücksspieler"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht*: Wähle eine Person und rate ihre Rolle. Rätst du falsch, stirbst du.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Innkeeper",
+              "ger": "Gastwirtin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht*: Wähle 2 Personen. Diese können diese Nacht nicht sterben, aber eine ist bis zum Ende des Tages betrunken.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Philosopher",
+              "ger": "Philosoph"
+            },
+            "gender": "m",
+            "ability": "Einmal im Spiel, in der Nacht: Wähle eine gute Rolle und erhalte ihre Fähigkeit. Ist diese Rolle im Spiel, wird sie betrunken.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Engineer",
+              "ger": "Ingenieurin"
+            },
+            "gender": "w",
+            "ability": "Einmal im Spiel, in der Nacht: Wähle welche Handlanger*innen oder welcher Dämon im Spiel ist.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Seamstress",
+              "ger": "Schneiderin"
+            },
+            "gender": "w",
+            "ability": "Einmal im Spiel, in der Nacht: Wähle 2 Personen und du erfährst, ob diese im selben Team spielen.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Nightwatchman",
+              "ger": "Nachtwächterin"
+            },
+            "gender": "w",
+            "ability": "Einmal im Spiel, in der Nacht: Wähle eine Person, diese erfährt deine Rolle.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Courtier",
+              "ger": "Höfling"
+            },
+            "gender": "d",
+            "ability": "Einmal im Spiel, in der Nacht: Wähle eine Rolle. Diese ist 3 Nächte und 3 Tage betrunken.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Huntsman",
+              "ger": "Weidmann"
+            },
+            "gender": "m",
+            "ability": "Einmal im Spiel, in der Nacht: Wähle eine lebende Person. Ist diese das Fräulein, wird sie zu einer Dorfbewohner*in, die nicht im Spiel ist. [+ Fräulein]",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Professor",
+              "ger": "Professorin"
+            },
+            "gender": "w",
+            "ability": "Einmal im Spiel, in der Nacht*: wähle eine tote Person. Falls sie Dorfbewohner*in ist, wird sie wiederbelebt.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Artist",
+              "ger": "Künstlerin"
+            },
+            "gender": "w",
+            "ability": "Einmal im Spiel, am Tag: Frage die Moderation privat eine Ja/Nein-Frage.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Fisherman",
+              "ger": "Fischer"
+            },
+            "gender": "m",
+            "ability": "Einmal im Spiel, am Tag: Gehe zur Erzähler*in und erfahre privat einen gewinnbringenden Tipp.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Slayer",
+              "ger": "Jäger"
+            },
+            "gender": "m",
+            "ability": "Einmal im Spiel, am Tag: Wähle öffentlich eine Person. Wenn diese ein Dämon ist, stirbt sie.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Juggler",
+              "ger": "Jongleur"
+            },
+            "gender": "m",
+            "ability": "Am ersten Tag: Rate die Rollen von bis zu 5 Personen. In der Nacht erfährst du wie viele davon korrekt waren.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Amnesiac",
+              "ger": "Vergessliche"
+            },
+            "gender": "d",
+            "ability": "Du kennst deine Fähigkeit nicht. Jeden Tag: Rate privat was deine Fähigkeit ist. Du erfährst wie nah du dran bist.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Savant",
+              "ger": "Gelehrte"
+            },
+            "gender": "w",
+            "ability": "Jeden Tag: Du kannst privat von der Erzähler*in 2 Informationen erhalten. Eine ist korrekt. Die andere ist falsch.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Gossip",
+              "ger": "Schwätzer"
+            },
+            "gender": "m",
+            "ability": "Jeden Tag: Du kannst ein öffentliches Statement machen. Ist es wahr, stirbt jemand in der Nacht.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Pacifist",
+              "ger": "Pazifistin"
+            },
+            "gender": "w",
+            "ability": "Exekutierte gute Personen sterben vielleicht nicht.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Cannibal",
+              "ger": "Kannibale"
+            },
+            "gender": "m",
+            "ability": "Du hast die Fähigkeit der letzten exekutierten Person. Ist diese böse, bist du vergiftet bis eine gute Person per Exekution stirbt.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Minstrel",
+              "ger": "Minnesänger"
+            },
+            "gender": "m",
+            "ability": "Falls eine Handlanger*in per Exekution stirbt, sind alle anderen Personen (außer Reisende) bis zum Ende des morgigen Tages betrunken.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Virgin",
+              "ger": "Jungfrau"
+            },
+            "gender": "d",
+            "ability": "Wenn du zum ersten mal zur Exekution angeklagt wirst und die anklagende Person ist eine Dorfbewohner*in, wird diese sofort exekutiert.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Fool",
+              "ger": "Närrin"
+            },
+            "gender": "w",
+            "ability": "Du stirbst zum ersten mal: Nicht.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Soldier",
+              "ger": "Soldat"
+            },
+            "gender": "m",
+            "ability": "Dir kann der Dämon nichts anhaben.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Tea Lady",
+              "ger": "Teedame"
+            },
+            "gender": "w",
+            "ability": "Falls deine 2 lebenden Nachbar*innen gut sind, können diese nicht sterben.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Sage",
+              "ger": "Weise"
+            },
+            "gender": "d",
+            "ability": "Falls dich der Dämon tötet, erfährst du dass er 1 von 2 Personen ist.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Farmer",
+              "ger": "Bauer"
+            },
+            "gender": "m",
+            "ability": "Falls du in der Nacht stirbst: Eine gute lebendige Person wird zum Bauern.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Choirboy",
+              "ger": "Chorknabe"
+            },
+            "gender": "m",
+            "ability": "Falls der Dämon den König tötet, erfährst du welche Person der Demon ist. [+ König]",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Ravenkeeper",
+              "ger": "Rabenhüterin"
+            },
+            "gender": "w",
+            "ability": "Falls du in der Nacht stirbst, wirst du geweckt: Wähle eine Person und erfahre ihre Rolle.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Poppy Grower",
+              "ger": "Mohnzüchterin"
+            },
+            "gender": "w",
+            "ability": "Handlanger*innen und Dämonen kennen sich nicht gegenseitig. Falls du stirbst, erkennen sie sich in dieser Nacht.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Bounty Hunter",
+              "ger": "Kopfgeldjäger"
+            },
+            "gender": "m",
+            "ability": "Du kennst eine böse Person. Falls diese stirbt, erfährst du in der Nacht eine andere böse Person. [Eine Dorfbewohner*in ist böse.]",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Mayor",
+              "ger": "Bürgermeister"
+            },
+            "gender": "m",
+            "ability": "Falls genau 3 Personen leben und es nicht zu einer Exekution kommt, gewinnt dein Team. Falls du in der Nacht stirbst, stirbt stattdessen vielleicht jemand anderes.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Atheist",
+              "ger": "Atheistin"
+            },
+            "gender": "w",
+            "ability": "Die Erzähler*in darf die Spielregeln brechen. Falls diese exekutiert wird, gewinnt das gute Team, auch wenn du tot bist. [keine bösen Rollen]",
+            "script": "Exp"
+          }
+        ]
+      },
+      {
+        "name": "Außenseiter*innen / Oustsiders",
+        "characters": [
+          {
+            "name": {
+              "eng": "Butler",
+              "ger": "Butler"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht: Wähle eine Person (nicht dich): Am nächsten Tag darfst du nur abstimmen, wenn diese auch abstimmt.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Goon",
+              "ger": "Schläger"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht: Die erste Person die dich mit ihrer Fähigkeit auswählt, wird bis zum Endes des Tages betrunken. Du gehört zu ihrem Team.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Acrobat",
+              "ger": "Akrobatin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht*: Falls deine 2 nächsten, lebenden, guten Nachbar*innen betrunken oder vergiftet sind, stirbst du.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Recluse",
+              "ger": "Einsiedler"
+            },
+            "gender": "m",
+            "ability": "Du kannst als Böse, Handlanger*in oder Dämon registriert werden. Auch wenn du tot bist.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Snitch",
+              "ger": "Verräter"
+            },
+            "gender": "m",
+            "ability": "Handlanger*innen erfahren jeweils 3 Rollen, welche nicht im Spiel sind.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Damsel",
+              "ger": "Fräulein"
+            },
+            "gender": "w",
+            "ability": "Alle Handlanger*innen wissen, dass du im Spiel bist. Falls eine Handlanger*in dich öffentlich errät (einmal im Spiel), verliert dein Team.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Golem",
+              "ger": "Golem"
+            },
+            "gender": "d",
+            "ability": "Du kannst nur einmal im Spiel anklagen. Falls die angeklagte Person kein Dämon ist, stirbt sie.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Lunatic",
+              "ger": "Verrückte"
+            },
+            "gender": "w",
+            "ability": "Du denkst du bist ein Dämon. Bist du aber nicht. Der Dämon weiß wer du bist und wen du in der Nacht wählst.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Drunk",
+              "ger": "Betrunkene"
+            },
+            "gender": "w",
+            "ability": "Du weißt nicht, dass die Betrunkene bist. Du denkst du bist eine Dorfbewohner*in. Bist du aber nicht.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Puzzlemaster",
+              "ger": "Rästelmeisterin"
+            },
+            "gender": "w",
+            "ability": "Eine Person ist betrunken, auch wenn du stirbst. Falls du errätst welche das ist (einmal): Erfahre wer der Dämon ist. Rätst du falsch: Erhalte falsche Infos.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Tinker",
+              "ger": "Bastlerin"
+            },
+            "gender": "w",
+            "ability": "Du könntest jederzeit sterben.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Sweetheart",
+              "ger": "Schätzchen"
+            },
+            "gender": "d",
+            "ability": "Wenn du stirbst, wird eine Person betrunken.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Plague Doctor",
+              "ger": "Seuchenärztin"
+            },
+            "gender": "w",
+            "ability": "Wenn du stirbst, erhält die Erzähler*in die Fähigkeit einer Handlanger*in, welche nicht im Spiel ist.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Mutant",
+              "ger": "Mutant"
+            },
+            "gender": "m",
+            "ability": "Wenn du \"besessen\" wirst, eine Außenseiter*in zu sein, wirst du vielleicht exekutiert.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Klutz",
+              "ger": "Tollpatsch"
+            },
+            "gender": "m",
+            "ability": "Wenn du erfährst, dass du gestorben bist: Wähle öffentlich eine lebende Person. Ist diese Böse, verliert dein Team.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Moonchild",
+              "ger": "Mondkind"
+            },
+            "gender": "d",
+            "ability": "Wenn du erfährst, dass du gestorben bist: Wähle öffentlich eine lebende Person. Ist diese Gut, stirbt sie in der Nacht.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Barber",
+              "ger": "Barbier"
+            },
+            "gender": "m",
+            "ability": "Falls du an diesem Tag oder in dieser Nacht stirbst: Der Dämon darf 2 Personen wählen (kein anderen Dämon), diese tauschen ihre Rollen.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Saint",
+              "ger": "Heilige"
+            },
+            "gender": "d",
+            "ability": "Wenn du per Exekution stirbst, verliert dein Team.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Heretic",
+              "ger": "Ketzerin"
+            },
+            "gender": "w",
+            "ability": "Das Team welches gewinnt, verliert und das Team welches verliert, gewinnt. Auch wenn du tot bist.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Politician",
+              "ger": "Politiker"
+            },
+            "gender": "m",
+            "ability": "Falls du die Person warst, welche am meisten dafür verantwortlich war, dass dein Team verloren hat: Wechsel das Team und gewinne. Auch wenn du schon tot bist,",
+            "script": "Exp"
+          }
+        ]
+      },
+      {
+        "name": "Handlanger*innen / Minions",
+        "characters": [
+          {
+            "name": {
+              "eng": "Widow",
+              "ger": "Witwe"
+            },
+            "gender": "w",
+            "ability": "Erste Nacht: Schaue dir das Grimoire an und wähle eine Person. Diese ist vergiftet. Eine gute Person weiß, dass die Witwe im Spiel ist.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Godfather",
+              "ger": "Pate"
+            },
+            "gender": "m",
+            "ability": "Erste Nacht: Erfahre welche Außenseiter*innen im Spiel sind. Falls eine davon am Tag stirbt: Wähle in der Nacht eine Person. Diese stirbt. [-1 oder +1 Außenseiter*in]",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Evil Twin",
+              "ger": "Böser Zwilling"
+            },
+            "gender": "d",
+            "ability": "Du und eine Person des gegnerischen Teams kennen sich. Wenn die Gute exekutiert wird, gewinnt das böse Team.\nDas gute Team kann nicht gewinnen, wenn beide von euch leben.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Spy",
+              "ger": "Spion"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht: Du siehst das Grimoire. Du kannst als Gut, Dorfbewohner*in oder Außenseiter*in registriert werden. Auch wenn du tot bist.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Poisoner",
+              "ger": "Giftmischerin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Wähle eine Person. Diese ist diese Nacht und kommenden Tag vergiftet.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Devils Advocate",
+              "ger": "Teufels Advokatin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Wähle eine lebende Person (nicht 2x dieselbe in Folge). Falls diese morgen exekutiert wird, stirbt sie nicht.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Witch",
+              "ger": "Hexe"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Wähle eine Person. Falls diese morgen anklagt, stirbt sie. Falls nur noch 3 Personen leben, verlierst du deine Fähigkeit.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Cerenovus",
+              "ger": "Cerenovus"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht: Wähle eine Person und eine gute Rolle. Die Person wird morgen \"besessen\", diese Rolle zu sein oder wird vielleicht exekutiert.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Fearmonger",
+              "ger": "Panikmacher"
+            },
+            "gender": "m",
+            "ability": "Jede Nacht: Wähle eine Person. Falls du diese anklagst und sie exekutiert wird, gewinnt dein Team. Alle erfahren, wenn du eine neue Person wählst.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Pit-Hag",
+              "ger": "Grubenhexe"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht*: Wähle eine Person und eine Rolle welche diese Person erhält (falls noch nicht im Spiel).\n Falls ein Dämon erschaffen wird, sind Todesfälle diese Nacht willkürlich.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Assassin",
+              "ger": "Assassine"
+            },
+            "gender": "d",
+            "ability": "Einmal im Spiel, in der Nacht*: Wähle eine Person. Diese stirbt, auch wenn es Gründe gibt, dass sie nicht sterben kann.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Psychopath",
+              "ger": "Psychopathin"
+            },
+            "gender": "w",
+            "ability": "Jeden Tag, vor den Abstimmungen: Du darfst öffentlich eine Person wählen. Diese stirbt. Falls du exekutiert wirst: Du stirbst nur, falls du bei \"Schere, Stein, Papier\" verlierst.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Baron",
+              "ger": "Baron"
+            },
+            "gender": "m",
+            "ability": "Es sind 2 weitere Außenseiter*innen im Spiel. [+2 Außenseiter*innen]",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Marionette",
+              "ger": "Marionette"
+            },
+            "gender": "d",
+            "ability": "Du denkst du bist gut. Bist du aber nicht. Der Dämon weiß wer du bist. [Du sitzt neben dem Dämon.]",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Mezepheles",
+              "ger": "Mezepheles"
+            },
+            "gender": "d",
+            "ability": "Du kennst ein geheimes Wort. Die erste gute Person, welche dieses Wort sagt, wird in der Nacht böse.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Scarlet Woman",
+              "ger": "Verführerin"
+            },
+            "gender": "w",
+            "ability": "Falls 5 oder mehr Personen leben und der Dämon stirbt, wirst du der neue Dämon. (Reisende zählen nicht mit.)",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Organ Grinder",
+              "ger": "Drehorgelspielerin"
+            },
+            "gender": "w",
+            "ability": "Alle Personen schließen ihre Augen während einer Abstimmung. Das Ergebnis ist geheim. Stimmen auf dich zählen nur, wenn du mit abgestimmt hast.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Vizier",
+              "ger": "Wesir"
+            },
+            "gender": "m",
+            "ability": "Alle wissen wer du bist. Du kannst nicht am Tag sterben. Falls jemand Gutes bei einer Abstimmung mit abgestimmt hat, kannst du sofort die Exekution einberufen.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Goblin",
+              "ger": "Teufelchen"
+            },
+            "gender": "d",
+            "ability": "Falls du angeklagt wirst und du dann öffentlich behauptest das Teufelchen zu sein und du an diesem Tag exekutiert wirst, gewinnt dein Team.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Boomdandy",
+              "ger": "Boom Hipster"
+            },
+            "gender": "m",
+            "ability": "Falls du exekutiert wirst: Alle bis auf 3 Personen sterben. 1 Minute später: Die Person auf die meisten Personen zeigen stirbt.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Mastermind",
+              "ger": "Meisterverstand"
+            },
+            "gender": "m",
+            "ability": "Falls der Dämon am Tag durch Exekution stirbt (und damit das Spiel enden würde): Spiele noch einen Tag. Wenn dann eine Person durch Exekution stirbt, verliert ihr Team.",
+            "script": "BMR"
+          }
+        ]
+      },
+      {
+        "name": "Dämon*innen / Demons",
+        "characters": [
+          {
+            "name": {
+              "eng": "Pukka",
+              "ger": "Pukka"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht: Wähle eine Person. Diese ist vergiftet. Die vorherige vergiftete Person stirbt und ist dann nicht mehr vergiftet.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Lil' Monsta",
+              "ger": "Kleines Ungetüm"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht: Die Handlanger*innen wählen, wer von ihnen Kleines Ungetüm babysittet und Dämon ist. Eine Person stirbt jede Nacht*. [+1 Handlanger*in]",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "No Dashii",
+              "ger": "No Dashii"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Wähle eine Person. Diese stirbt. Deine 2 benachbarten Dorfbewohner*innen sind vergiftet.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Imp",
+              "ger": "Kobold"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Wähle eine Person. Diese stirbt. Falls du dich selbst wählst, wird eine Handlanger*in zum neuen Kobold und verliert ihre Handlanger*innen Fähigkeit.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Shabaloth",
+              "ger": "Shabaloth"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Wähle 2 Personen. Diese sterben. Eine tote Person die du vorherige Nacht gewählt hast, könnte wiederbelebt werden.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Al-Hadikhia",
+              "ger": "Al-Hadikhia"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Wähle 3 Personen (alle erfahren welche das sind): Im Stillen wählen diese zu leben oder zu sterben. Falls alle leben, sterben alle.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Lleech",
+              "ger": "Bluteghel"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Wähle eine Person. Diese stirbt. Erste Nacht: Wähle eine lebende Person. Diese ist vergiftet. Du stirbst falls und nur, wenn diese stirbt.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Zombuul",
+              "ger": "Zombuul"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Falls niemand am Tag gestorben ist. Wähle eine Person. Diese stirbt. Du stirbst zum ersten Mal: Du lebst weiter, wirst aber als tot registriert.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Po",
+              "ger": "Po"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Du darfst eine Person wählen. Diese stirbt. Falls du dich letztes mal dagegen entschieden hast, wähle diese Nacht 3 Personen. Diese sterben.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Vigormortis",
+              "ger": "Vigormortis"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Wähle eine Person. Diese stirbt. Handlanger*innen die du tötest behalten ihre Fähigkeiten und vergiften 1 benachbarte Dorfbewohner*in. [-1 Außenseiter*in]",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Fang Gu",
+              "ger": "Fang Gu"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Wähle eine Person. Diese stirbt. Die erste Außenseiter*in die dadurch stirbt wird zu einem bösen Fang Gu und du stirbst stattdessen. [+1 Außenseiter*in]",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Legion",
+              "ger": "Legion"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Eine Person könnte sterben. Exekutionen scheitern, falls nur Bösen abgestimmt haben. Du wirst auch als Handlanger*in registriert. [Die meisten Personen sind Legion.]",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Vortox",
+              "ger": "Vortox"
+            },
+            "gender": "d",
+            "ability": "Jede Nacht*: Wähle eine Person. Diese stirbt. Dorfbewohner*innen Fähigkeiten enthalten falsche Infos. Jeden Tag: Falls niemand exekutiert wird, gewinnt das böse Team.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Leviathan",
+              "ger": "Leviathan"
+            },
+            "gender": "d",
+            "ability": "Falls mehr als eine gute Person exekutiert wird, gewinnt das böse Team. Alle wissen, dass du im Spiel bist. Das böse Team gewinnt nach Tag 5.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Riot",
+              "ger": "Aufrührer*in"
+            },
+            "gender": "d",
+            "ability": "Angeklagte sterben, aber Angeklagte können sofort anklagen. Am dritten Tag müssen sie. Nach dem dritten Tag gewinnt das böse Team. [Alle Handlanger*innen sind Aufrührer*innen.]",
+            "script": "Exp"
+          }
+        ]
+      },
+      {
+        "name": "Reisende",
+        "characters": [
+          {
+            "name": {
+              "eng": "Scapegoat",
+              "ger": "Sündenbock"
+            },
+            "gender": "d",
+            "ability": "Falls eine Person aus deinem Team exekutiert wird, könntest du stattdessen exekutiert werden.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Gunslinger",
+              "ger": "Revolverheld"
+            },
+            "gender": "m",
+            "ability": "Jeden Tag nachdem die Stimmen der ersten Abstimmung zur Exekution gezählt sind, darfst du eine Person wählen, die mit abgestimmt hat. Diese stirbt.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Beggar",
+              "ger": "Bettlerin"
+            },
+            "gender": "w",
+            "ability": "Du musst eine Totenstimme nutzen, um abstimmen zu können. Falls dir eine tote Person ihre Stimme gibt, erfährst du ihr Team. Du bist nüchtern und gesund.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Bureaucrat",
+              "ger": "Bürokratin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Wähle eine Person (nicht dich): Ihre Stimme zählt morgen als 3 Stimmen.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Thief",
+              "ger": "Diebin"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht: Wähle eine Person (nicht dich): Ihre Stimme zählt morgen negativ.",
+            "script": "TB"
+          },
+          {
+            "name": {
+              "eng": "Butcher",
+              "ger": "Metzger"
+            },
+            "gender": "m",
+            "ability": "Jeden Tag nach der ersten Exekution, darfst du erneut anklagen.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Bone Collector",
+              "ger": "Knochensammlerin"
+            },
+            "gender": "w",
+            "ability": "Einmal im Spiel, in der Nacht: Wähle eine tote Person. Diese erhält ihre Fähigkeiten bis zur Abenddämmerung zurück.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Harlot",
+              "ger": "Hure"
+            },
+            "gender": "w",
+            "ability": "Jede Nacht*: Wähle eine lebende Person. Falls diese zustimmt erfährst du ihre Rolle. Aber ihr könntet beide sterben.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Barista",
+              "ger": "Barista"
+            },
+            "gender": "d",
+            "ability": "Jede Nach bis zu Abenddämmerung: 1) Eine Person wird nüchtern, gesund und erhält korrekte Infos. Oder 2) ihre Fähigkeit wirkt 2x. Sie erfährt ob 1) oder 2) in Kraft tritt.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Deviant",
+              "ger": "Andere"
+            },
+            "gender": "d",
+            "ability": "Falls du heute amüsierend warst, kannst du nicht verbannt werden.",
+            "script": "SaV"
+          },
+          {
+            "name": {
+              "eng": "Apprentice",
+              "ger": "Auszubildender"
+            },
+            "gender": "m",
+            "ability": "Zur ersten Nacht erhältst du eine Dorfbewohner*innen Fähigkeit (wenn gut) oder eine Handlanger*innen Fähigkeit (wenn böse).",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Matron",
+              "ger": "Hausmutter"
+            },
+            "gender": "w",
+            "ability": "Jeden Tag, kannst du bis zu 3x, je 2 Personen ihre Plätze tauschen lassen. Niemand darf den Sitzplatz verlassen, um sich privat zu unterhalten.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Voudon",
+              "ger": "Voudon"
+            },
+            "gender": "d",
+            "ability": "Nur du und die Toten können abstimmen. Sie brauchen dafür keine Totenstimme. Eine 50%-Mehrheit wird nicht benötigt.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Judge",
+              "ger": "Richterin"
+            },
+            "gender": "w",
+            "ability": "Einmal im Spiel: Du darfst nachdem eine Person angeklagt wurde aussuchen, ob die aktuelle Exekution durchgeht oder scheitert.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Bishop",
+              "ger": "Bischof"
+            },
+            "gender": "m",
+            "ability": "Nur die Erzähler*in kann anklagen. Es muss mindestens eine Person aus deinem gegnerischen Team angeklagt werden.",
+            "script": "BMR"
+          },
+          {
+            "name": {
+              "eng": "Gangster",
+              "ger": "Gangster"
+            },
+            "gender": "m",
+            "ability": "Einmal am Tag: Du darfst eine lebende Nachbar*in töten, wenn die andere lebende Nachbar*in zustimmt.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Big City Hipster",
+              "ger": "Großstadt-Hipster"
+            },
+            "gender": "m",
+            "ability": "Du bist \"besessen\" die Erzähler*in zu sein. Du gewinnst, wenn das Spiel den finalen Tag erreicht.",
+            "script": "Exp"
+          }
+        ]
+      },
+      {
+        "name": "Sagenhafte",
+        "characters": [
+          {
+            "name": {
+              "eng": "Revolutionary",
+              "ger": "Revolutionärin"
+            },
+            "gender": "w",
+            "ability": "2 benachbarte Personen sind öffentlich bekannt im selben Team. Einmal im Spiel: Eine von ihnen wird falsch registriert.",
+            "script": "Alle"
+          },
+          {
+            "name": {
+              "eng": "Sentinel",
+              "ger": "Wächter"
+            },
+            "gender": "m",
+            "ability": "Es könnten +1 oder -1 Außenseiter*innen im Spiel sein.",
+            "script": "Eigene"
+          },
+          {
+            "name": {
+              "eng": "Spirit of Ivory",
+              "ger": "Geist des Elfenbeins"
+            },
+            "gender": "d",
+            "ability": "Es kann nicht mehr als eine böse Person extra im Spiel sein.",
+            "script": "Eigene"
+          },
+          {
+            "name": {
+              "eng": "Djinn",
+              "ger": "Dschinn"
+            },
+            "gender": "d",
+            "ability": "Benutze des Dschinns Spezial-Regel. Alle Personen wissen welche das ist.",
+            "script": "Eigene"
+          },
+          {
+            "name": {
+              "eng": "Storm Catcher",
+              "ger": "Sturmjägerin"
+            },
+            "gender": "w",
+            "ability": "Nenne eine gute Fähigkeit. Falls diese im Spiel ist, kann sie nur per Exekution sterben. Böse Spieler wissen welche Person die Fähigkeit hat.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Bootlegger",
+              "ger": "Schmuggler"
+            },
+            "gender": "m",
+            "ability": "Das Skript hat selbst gemachte Fähigkeiten oder Regeln.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Gardener",
+              "ger": "Gärtnerin"
+            },
+            "gender": "w",
+            "ability": "Die Erzähler*in teilt einer oder mehr Personen Fähigkeiten zu.",
+            "script": "Exp"
+          },
+          {
+            "name": {
+              "eng": "Buddhist",
+              "ger": "Buddhist"
+            },
+            "gender": "m",
+            "ability": "Jeden Tag: Die ersten 2 Minuten dürfen spielerfahrene Personen nicht reden.",
+            "script": "Alle"
+          },
+          {
+            "name": {
+              "eng": "Duchess",
+              "ger": "Herzogin"
+            },
+            "gender": "w",
+            "ability": "Jeden Tag: 3 Personen können wählen dich zu besuchen. In der Nacht* erfahren alle Besucher*innen wie viele davon böse sind. Eine Person erhält falsche Infos.",
+            "script": "Eigene"
+          },
+          {
+            "name": {
+              "eng": "Angel",
+              "ger": "Engel"
+            },
+            "gender": "d",
+            "ability": "Etwas Schlimmes könnte der Person zustoßen, welche am meisten Schuld am Tod einer Person hat, die zum ersten mal spielt.",
+            "script": "Alle"
+          },
+          {
+            "name": {
+              "eng": "Doomsayer",
+              "ger": "Unheilsprophetin"
+            },
+            "gender": "w",
+            "ability": "Falls 4 oder mehr Personen leben, kann jede lebende Person (einmal im Spiel) öffentlich wählen, dass eine Person aus dem eigenen Team stirbt.",
+            "script": "Alle"
+          },
+          {
+            "name": {
+              "eng": "Toymaker",
+              "ger": "Spielzeugmacher"
+            },
+            "gender": "m",
+            "ability": "Der Dämon kann entscheiden nicht anzugreifen und muss sich mindestens einmal im Spiel dafür entscheiden. Böse Spieler erhalten ihre normalen Startinformationen.",
+            "script": "Alle"
+          },
+          {
+            "name": {
+              "eng": "Fibbin",
+              "ger": "Flunkerer"
+            },
+            "gender": "m",
+            "ability": "Einmal im Spiel: Eine gute Person könnte falsche Informationen erhalten.",
+            "script": "Eigene"
+          },
+          {
+            "name": {
+              "eng": "Hell's Librarian",
+              "ger": "Bibliothekar der Hölle"
+            },
+            "gender": "m",
+            "ability": "Wenn die Erzähler*in um Ruhe bittet und sich jemand nicht daran hält, könnte dieser Person etwas Schlimmes zustoßen.",
+            "script": "Alle"
+          },
+          {
+            "name": {
+              "eng": "Fiddler",
+              "ger": "Violinistin"
+            },
+            "gender": "w",
+            "ability": "Einmal im Spiel: Der Dämon wählt im Geheimen, 2 Personen aus unterschiedlichen Teams. Alle Personen entscheiden, welche dieser 2 gewinnt.",
+            "script": "Alle"
+          },
+          {
+            "name": {
+              "eng": "Ferryman",
+              "ger": "Fährmann"
+            },
+            "gender": "m",
+            "ability": "Am finalen Tag erhalten alle toten Personen ihre Totenstimme zurück.",
+            "script": "Exp"
+          }
+        ]
+      }
+    ]
+  }
+  
